@@ -168,7 +168,7 @@
         &trans     &trans     &trans     &kp LG(LS(S))  &trans           &to 4          &kp HOME         &kp UP_ARROW  &kp END           &kp DQT
         &trans     &trans     &trans     &trans         &trans           &kp BACKSPACE  &kp LEFT         &kp DOWN      &kp RIGHT         &kp LG(LS(S))
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(LS(V))    &kp DEL        &kp LS(LC(TAB))  &kp LC(TAB)   &kp LC(LS(LEFT))  &kp LC(LS(RIGHT))  &kp LC(LS(ESCAPE))
-                              &trans     &trans         &trans           &trans         &trans           &trans
+                              &trans     &trans         &trans           &trans         &kp CAPSLOCK     &trans
             >;
         };
 
