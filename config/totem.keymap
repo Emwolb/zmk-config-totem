@@ -115,17 +115,17 @@
             bindings = <
          &kp Q                &kp W            &kp E              &kp R            &kp T           &kp Y        &kp U             &kp I               &kp O             &kp P
          &HML LEFT_CONTROL A  &HML LEFT_GUI S  &HML LEFT_SHIFT D  &HML LEFT_ALT F  &kp G           &kp H        &HMR RIGHT_ALT J  &HMR RIGHT_SHIFT K  &HMR RIGHT_GUI L  &HMR RIGHT_CONTROL SEMICOLON
-&kp ESC  &kp Z                &kp X            &kp C              &kp V            &kp B           &kp N        &kp M             &kp COMMA           &kp DOT           &kp FSLH                      &kp SQT
+&kp TAB  &kp Z                &kp X            &kp C              &kp V            &kp B           &kp N        &kp M             &kp COMMA           &kp DOT           &kp FSLH                      &kp SQT
                                                &lt 3 DELETE       &lt 6 SPACE      &lt 1 ESCAPE    &lt 2 ENTER  &lt 5 SPACE       &kp BSPC
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        nav_layer {
+        NUMSYM {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "NAVI";
+            label = "NUMSYM";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -139,10 +139,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC  &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp N1   &kp N2      &kp N3    &kp N4     &kp N5      &kp N6    &kp N7     &kp N8     &kp N9     &kp N0
-&trans  &kp DEL  &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                             &trans    &trans     &trans      &mo ADJ   &kp KP_N0  &trans
+           &kp EXCL  &kp AT          &kp HASH         &kp DOLLAR        &kp PERCENT          &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+           &kp N1    &kp N2          &kp N3           &kp N4            &kp N5               &kp N6          &kp N7         &kp N8        &kp N9                &kp N0
+&kp TILDE  &kp PIPE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp UNDERSCORE  &kp PLUS       &trans        &trans                &trans                 &kp MINUS
+                                     &kp GRAVE        &trans            &trans               &kp EQUAL       &trans         &trans
             >;
         };
 
